@@ -146,3 +146,25 @@ body{
     margin: 15px 15px;
     color: #644F9C;
 }
+
+.form-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.toggle-btn{
+    color: #404040;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+}
+
+.toggle-btn:hover{
+    background-color: #FF6F00;
+    color: #F2F2F2;
+}
